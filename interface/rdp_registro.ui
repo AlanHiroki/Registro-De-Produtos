@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>335</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>335</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Registro de produtos</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>36</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 36pt &quot;Verdana&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>REGISTRO DE PRODUTOS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>101</y>
+      <width>213</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>18</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Nome Do Produto</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNome">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>451</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>501</x>
+      <y>100</y>
+      <width>114</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Categoria</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbxCategoria">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>140</y>
+      <width>241</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Eletrônico</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Roupas e Acessórios</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Alimentos e Bebidas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Móveis</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beleza e Cuidados Pessoais</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Esportes e Lazer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ferramentas e Materiais de Construção</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Livros e Mídia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brinquedos e Jogos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Automotivos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saúde</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tecnologia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Casa e Jardim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Artigos de Escritório</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>179</y>
+      <width>66</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Preço</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="dsbPreco">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>105</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="prefix">
+     <string>R$ </string>
+    </property>
+    <property name="maximum">
+     <double>10000000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.100000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>178</y>
+      <width>286</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Quantidade Em Estoque</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="sbQuantidade">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>220</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>10000000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>180</y>
+      <width>203</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Data De Registro</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="deData">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>220</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>740</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="handleWidth">
+     <number>50</number>
+    </property>
+    <widget class="QPushButton" name="btnSalvar">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Verdana&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Salvar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnLimpar">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Verdana&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Limpar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnProdutos">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Verdana&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Produtos</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

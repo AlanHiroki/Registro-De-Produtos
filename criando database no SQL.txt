@@ -1,0 +1,43 @@
+Para a database com a tabela principal
+
+CREATE DATABASE registro_produtos;
+
+USE registro_produtos;
+
+CREATE TABLE produtos(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL UNIQUE,
+categoria VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, 
+preco DECIMAL (10, 2),
+quantidade INT,
+data_registro DATE
+)
+
+
+
+
+para a tabela historico
+
+USE registro_produtos;
+
+CREATE TABLE historico(
+id INT AUTO_INCREMENT PRIMARY KEY,
+funcionario VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+acao VARCHAR(10),
+CHECK(acao IN('CRIOU', 'EDITOU', 'EXCLUIU')),
+nome VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+data_atual TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+produto TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+produto_editado TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+)
+
+
+Para login
+
+USE registro_produtos;
+
+CREATE TABLE usuarios(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci UNIQUE NOT NULL,
+senha  varchar(8) NOT NULL
+)
