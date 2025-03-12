@@ -1,5 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-* linguist-vendored
-*.HTML linguist-vendored=false
-*.Tex linguist-vendored=false
+
+*.py linguist-vendored=python
