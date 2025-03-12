@@ -4,3 +4,5 @@
 *.txt linguist-detectable=false
 *.md linguist-detectable=false
 *.py linguist-detectable=true
+
+* linguist-language=Python
