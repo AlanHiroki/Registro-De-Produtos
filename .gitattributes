@@ -1,2 +1,4 @@
-
-*.py linguist-vendored=python
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+# Adicione outros tipos de arquivo que não sejam Python
+*.py linguist-detectable=true
