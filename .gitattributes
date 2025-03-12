@@ -1,2 +1,6 @@
-# Adicione outros tipos de arquivo que não sejam Python
+
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+*.txt linguist-detectable=false
+*.md linguist-detectable=false
 *.py linguist-detectable=true
