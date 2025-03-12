@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.HTML linguist-vendored=false
+*.Tex linguist-vendored=false
